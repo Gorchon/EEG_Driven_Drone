@@ -1,6 +1,6 @@
-# Servicio Becario - EEG Drones Documentation
+# Servicio Becario - EEG Drones Documentación
 
-Este repositorio tiene como objetivo documentar el funcionamiento de drones controlados mediante señales EEG utilizando la diadema Muse 2 y la biblioteca BrainFlow. Nuestro objetivo principal es controlar el drone usando señales cerebrales y analizar los datos obtenidos para poder trasladar esta tecnología a otras aplicaciones.
+Este repositorio tiene como objetivo documentar el funcionamiento de drones controlados mediante señales EEG utilizando la diadema Muse  y la biblioteca BrainFlow. Nuestro objetivo principal es controlar el drone usando señales cerebrales y analizar los datos obtenidos para poder trasladar esta tecnología a otras aplicaciones.
 
 ## Introducción
 
