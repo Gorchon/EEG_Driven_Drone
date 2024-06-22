@@ -19,7 +19,7 @@ from pylsl import StreamInlet, resolve_stream
 import pandas as pd
 from openpyxl import Workbook
 import csv
-import numpy as np
+import numpy as np  
 #import numpy
 
 

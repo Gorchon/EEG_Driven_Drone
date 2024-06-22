@@ -1,6 +1,6 @@
 # EEG Drones Documentation
 
-Este repositorio tiene como objetivo documentar el funcionamiento de drones controlados mediante señales EEG utilizando la diadema Muse 2 y la biblioteca BrainFlow.
+Este repositorio tiene como objetivo documentar el funcionamiento de drones controlados mediante señales EEG utilizando la diadema Muse 2 y la biblioteca BrainFlow. Nuestro objetivo principal es controlar el drone usando señales cerebrales y analizar los datos obtenidos para poder trasladar esta tecnología a otras aplicaciones.
 
 ## Introducción
 
@@ -72,9 +72,18 @@ print(data)
 
 board.stop_stream()
 board.release_session()
-
 ```
+
 Para más información, consulta la [documentación completa de BrainFlow](https://brainflow.readthedocs.io/en/stable/) y su [repositorio en GitHub](https://github.com/brainflow-dev/brainflow).
+
+## Análisis de Datos
+
+Hemos estado pensando en posibles formas de analizar los datos obtenidos mediante machine learning y estadísticas. Aquí algunas ideas sobre cómo utilizar los datos arrojados por la Muse 2 para crear modelos:
+
+- **Clasificación de Estados Mentales:** Utilizar algoritmos de clasificación para distinguir entre diferentes estados mentales (relajado, concentrado, estresado) basados en las señales EEG.
+- **Predicción de Comandos:** Implementar redes neuronales para predecir comandos específicos para el drone basados en patrones de actividad cerebral.
+- **Análisis de la Variabilidad de la Frecuencia Cardíaca (HRV):** Emplear técnicas estadísticas para analizar la HRV y correlacionarla con los estados emocionales del usuario.
+- **Reducción de Dimensionalidad:** Aplicar técnicas como PCA (Análisis de Componentes Principales) para reducir la dimensionalidad de los datos y facilitar su interpretación y uso en modelos de machine learning.
 
 ## Contribuciones
 
